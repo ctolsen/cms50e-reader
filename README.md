@@ -32,6 +32,18 @@ Make sure the device has the USB setting on, and is connected to the
 computer. If the program is not outputting any data, simply running 
 `cat /path/to/usb-device` can kickstart it.
 
+## Example output
+
+The output is updated 20 times per second.
+
+```
+Heartrate:		 62
+Oxygen saturation:	 98
+Pulse waveform:		 24
+
+Hit Ctrl+C to exit.
+```
+
 ## Acknowledgements
 
 Written by [Christoffer Torris Olsen](https://github.com/ctolsen/)
