@@ -26,7 +26,7 @@ provide some hints.
 
 ## Acknowledgements
 
-Written by Christoffer Torris Olsen <chris@torristory.com>.
+Written by [Christoffer Torris Olsen](https://github.com/ctolsen/)
 
 Thanks to [Alex Robinson](http://www.tranzoa.net/~alex/blog/?p=371) for
 interface documentation.
