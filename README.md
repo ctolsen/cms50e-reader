@@ -2,7 +2,8 @@
 
 This module reads and outputs data from a Contec CMS50E pulse oximeter.
 
-It has only been tested on Mac OS X Yosemite. Consider this a work in progress.
+It has only been tested on Mac OS X Yosemite with Python 3.4. Consider this 
+a work in progress.
 
 If you try to upload recorded data from the device, the program will simply
 discard the data, but continue working.
@@ -19,10 +20,17 @@ must be installed.
 
 Then:
 
-`python cms50e.py /dev/cu.SLAB_USBtoUART`
+`python setup.py develop` to install dependencies
 
-The name of the USB device may be different. Running `ls /dev/cu.*` should
-provide some hints.
+`python cms50e.py /path/to/usb-device` to run the program
+
+On the computer used for testing, the usb device was found at
+`/dev/cu.SLAB_USBtoUART`. The name of the USB device may be different. 
+Running `ls /dev/cu.*` should provide some hints.
+
+Make sure the device has the USB setting on, and is connected to the 
+computer. If the program is not outputting any data, simply running 
+`cat /path/to/usb-device` can kickstart it.
 
 ## Acknowledgements
 
